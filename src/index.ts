@@ -8,7 +8,6 @@ export type {
   Inches,
   JoineryStrengthInput,
   JoineryStrengthResult,
-  JoineryType,
   LinearFeet,
   LinearFeetInput,
   MoistureContentInput,
@@ -26,6 +25,7 @@ export type {
 
 export {
   WoodSpecies,
+  JoineryType,
   RangeError,
 } from "./types.js";
 
@@ -44,3 +44,9 @@ export {
   getFSPFactor,
   estimateDryingTime,
 } from "./moisture.js";
+
+export {
+  calculateJoineryStrength,
+  getSpeciesData,
+  compareJoints,
+} from "./joinery.js";
