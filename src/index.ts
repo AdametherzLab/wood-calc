@@ -1,7 +1,16 @@
+export {
+  inchesToCentimeters,
+  centimetersToInches,
+  boardFeetToCubicMeters,
+  cubicMetersToBoardFeet,
+  poundsPerSquareInchToKilopascals,
+  kilopascalsToPoundsPerSquareInch,
+  unitConversions
+} from './units.js';
+
 export type {
   BoardFeet,
   BoardFeetInput,
-  CalculationResult,
   CubicInches,
   EquilibriumMCInput,
   Fahrenheit,
@@ -21,20 +30,20 @@ export type {
   UnitConversion,
   ValidationError,
   WoodSpeciesData,
-} from "./types.js";
+} from './types.js';
 
 export {
   WoodSpecies,
   JoineryType,
   RangeError,
-} from "./types.js";
+} from './types.js';
 
 export {
   calculateBoardFeet,
   calculateLinearFeet,
   calculateSheetCount,
   calculateTotalBoardFeet,
-} from "./lumber.js";
+} from './lumber.js';
 
 export {
   calculateMoistureContent,
@@ -43,10 +52,10 @@ export {
   getShrinkageCoefficients,
   getFSPFactor,
   estimateDryingTime,
-} from "./moisture.js";
+} from './moisture.js';
 
 export {
   calculateJoineryStrength,
   getSpeciesData,
   compareJoints,
-} from "./joinery.js";
+} from './joinery.js';

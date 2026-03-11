@@ -1,6 +1,6 @@
 {
   "name": "@adametherzlab/wood-calc",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Woodworking calculator — board feet, shrinkage, moisture content, joinery strength",
   "type": "module",
   "main": "./dist/index.js",
